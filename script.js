@@ -1,10 +1,10 @@
 function shortcut(s1, s2) {
   // Check if either of the input strings is empty
-  if (str1 === '' || str2 === '') {
+  if (s1 === '' || s2 === '') {
     return '';
   }
   // Return the concatenation of the first character of each string
-  return str1[0] + str2[0];
+  return s1[0] + s2[0];
 }
 
 // Do not change the code below.
